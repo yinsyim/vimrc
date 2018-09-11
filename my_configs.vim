@@ -37,7 +37,15 @@ colorscheme Tomorrow-Night-Eighties
 let g:go_get_update = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => others
+" => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " allow to use mouse clicking
 set mouse=a
+
+" Show line number
+set nu
+
+" With a map leader it's possible to do extra key combinations
+" like <leader>w saves the current file
+ let mapleader = "'"
+ let g:mapleader = "'"
