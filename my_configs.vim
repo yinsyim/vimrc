@@ -16,4 +16,8 @@ let g:NERDTreeDirArrowExpandable = '+'
 let g:NERDTreeDirArrowCollapsible = '-'
 let g:NERDTreeWinPos = "left"
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => neocomplete
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:neocomplete#enable_at_startup = 1
 
