@@ -30,3 +30,14 @@ set background=dark
 " colorscheme ron
 colorscheme Tomorrow-Night-Eighties
 " colorscheme solarized
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-go
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:go_get_update = 0
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => others
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" allow to use mouse clicking
+set mouse=a
