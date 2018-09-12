@@ -24,12 +24,17 @@ let g:neocomplete#enable_at_startup = 1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => colorscheme
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set background=dark
+" set t_Co=256 " required
+
+" set background=dark
 " set background=light
 
 " colorscheme ron
-colorscheme Tomorrow-Night-Eighties
+" colorscheme Tomorrow-Night-Eighties
 " colorscheme solarized
+colorscheme zellner
+
+" hi Normal guibg=NONE ctermbg=NONE
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-go
