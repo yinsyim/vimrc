@@ -9,9 +9,9 @@ Over the last 10 years, I have used and tweaked Vim. This configuration is the u
 There are two versions:
 
 * **The Basic**: If you want something small just copy [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into your ~/.vimrc and you will have a good basic setup
-* * **The Awesome**: Includes a ton of useful plugins, color schemes, and configurations
-*
-* I would, of course, recommend using the awesome version.
+* **The Awesome**: Includes a ton of useful plugins, color schemes, and configurations
+
+I would, of course, recommend using the awesome version.
 
 // amix
 
@@ -95,7 +95,7 @@ I recommend reading the docs of these plugins to understand them better. Each pl
 * [tomorrow-theme/colors](https://github.com/yinsyim/vimrc/tree/master/my_plugins/tomorrow-theme/colors)
 
 
- ## How to include your own stuff?
+## How to include your own stuff?
 
 After you have installed the setup, you can create **~/.vim_runtime/my_configs.vim** to fill in any configurations that are important for you. For instance, my **my_configs.vim** looks like this:
 
@@ -107,6 +107,7 @@ You can also install your plugins, for instance, via pathogen you can install [v
 
     cd ~/.vim_runtime/my_plugins/
     git submodule add git://github.com/tpope/vim-rails.git
+    then edit the pathogen part in ~/.vim_runtime/my_configs.vim
 
 
 ## Key Mappings
