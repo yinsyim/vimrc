@@ -4,3 +4,47 @@
 [submodule "my_plugins/vim-colors-solarized"]
 	path = my_plugins/vim-colors-solarized
 	url = https://github.com/yinsyim/vim-colors-solarized.git
+[submodule "my_plugins/python-mode"]
+	path = my_plugins/python-mode
+	url = https://github.com/yinsyim/python-mode.git
+
+[submodule "my_plugins/python-mode/submodules/autopep8"]
+	path = my_plugins/python-mode/submodules/autopep8
+	url = https://github.com/hhatto/autopep8
+    ignore = dirty
+[submodule "my_plugins/python-mode/submodules/pycodestyle"]
+	path = my_plugins/python-mode/submodules/pycodestyle
+	url = https://github.com/PyCQA/pycodestyle
+    ignore = dirty
+[submodule "my_plugins/python-mode/submodules/pydocstyle"]
+	path = my_plugins/python-mode/submodules/pydocstyle
+	url = https://github.com/PyCQA/pydocstyle
+    ignore = dirty
+[submodule "my_plugins/python-mode/submodules/mccabe"]
+	path = my_plugins/python-mode/submodules/mccabe
+	url = https://github.com/PyCQA/mccabe
+    ignore = dirty
+[submodule "my_plugins/python-mode/submodules/pyflakes"]
+	path = my_plugins/python-mode/submodules/pyflakes
+	url = https://github.com/PyCQA/pyflakes
+    ignore = dirty
+[submodule "my_plugins/python-mode/submodules/snowball_py"]
+	path = my_plugins/python-mode/submodules/snowball_py
+	url = https://github.com/diraol/snowball_py
+    ignore = dirty
+	branch = develop
+[submodule "my_plugins/python-mode/submodules/pylint"]
+	path = my_plugins/python-mode/submodules/pylint
+	url = https://github.com/PyCQA/pylint
+[submodule "my_plugins/python-mode/submodules/rope"]
+	path = my_plugins/python-mode/submodules/rope
+	url = https://github.com/python-rope/rope
+[submodule "my_plugins/python-mode/submodules/astroid"]
+	path = my_plugins/python-mode/submodules/astroid
+	url = https://github.com/PyCQA/astroid
+[submodule "my_plugins/python-mode/submodules/six"]
+	path = my_plugins/python-mode/submodules/six
+	url = https://github.com/benjaminp/six.git
+[submodule "my_plugins/python-mode/submodules/pylama"]
+	path = my_plugins/python-mode/submodules/pylama
+	url = https://github.com/klen/pylama

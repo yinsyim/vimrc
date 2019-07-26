@@ -1,9 +1,12 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => pathogen
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+filetype off
+call pathogen#infect()
+call pathogen#helptags()
 execute pathogen#infect()
-syntax on
 filetype plugin indent on
+syntax on
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => nerdtree
