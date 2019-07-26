@@ -107,7 +107,7 @@ You can also install your plugins, for instance, via pathogen you can install [v
 
     cd ~/.vim_runtime/my_plugins/
     git submodule add git://github.com/tpope/vim-rails.git
-    then edit the pathogen part in ~/.vim_runtime/my_configs.vim
+    then edit the pathogen part in ~/.vim_runtime/my_configs.vim if needed
 
 
 ## Key Mappings
