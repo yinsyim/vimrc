@@ -1,4 +1,24 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" allow to use mouse clicking
+set mouse=a
+
+" Show line number
+set nu
+
+" set <leader>
+let mapleader=','
+" roll 10 lines
+nmap J 10j
+nmap K 10k
+" set paste and nopaste
+cmap sp set paste
+cmap snp set nopaste
+nmap <leader>sp :set paste<CR>
+nmap <leader>snp :set nopaste<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => pathogen
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 filetype off
@@ -44,11 +64,3 @@ colorscheme zellner
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:go_get_update = 0
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => General
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" allow to use mouse clicking
-set mouse=a
-
-" Show line number
-set nu
