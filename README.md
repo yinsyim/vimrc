@@ -1,5 +1,7 @@
 ![VIM](https://dnp4pehkvoo6n.cloudfront.net/43c5af597bd5c1a64eb1829f011c208f/as/Ultimate%20Vimrc.svg)
 
+[TOC]
+
 # The Ultimate vimrc
 
 // amix
@@ -98,17 +100,34 @@ I recommend reading the docs of these plugins to understand them better. Each pl
 ## How to include your own stuff?
 
 After you have installed the setup, you can create **~/.vim_runtime/my_configs.vim** to fill in any configurations that are important for you. For instance, my **my_configs.vim** looks like this:
+```text
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""  
+" => General  
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""  
+" allow to use mouse clicking  
+set mouse=a  
 
-    ~/.vim_runtime (master)> cat my_configs.vim
-    map <leader>ct :cd ~/Desktop/Todoist/todoist<cr>
-    map <leader>cw :cd ~/Desktop/Wedoist/wedoist<cr> 
+" Show line number  
+set nu
+
+" set <leader>  
+let mapleader=','  
+" roll 10 lines  
+nmap J 10j  
+nmap K 10k  
+" set paste and nopaste  
+cmap sp set paste  
+cmap snp set nopaste  
+nmap <leader>p :set paste<CR>  
+nmap <leader>np :set nopaste<CR>  
+```
 
 You can also install your plugins, for instance, via pathogen you can install [vim-rails](https://github.com/tpope/vim-rails):
-
-    cd ~/.vim_runtime/my_plugins/
-    git submodule add git://github.com/tpope/vim-rails.git
-    then edit the pathogen part in ~/.vim_runtime/my_configs.vim if needed
-
+```text
+    # cd ~/.vim_runtime/my_plugins/
+    # git submodule add git://github.com/tpope/vim-rails.git
+    # then edit the pathogen part in ~/.vim_runtime/my_configs.vim if needed
+```
 
 ## Key Mappings
 
@@ -119,14 +138,3 @@ The [leader](http://learnvimscriptthehardway.stevelosh.com/chapters/06.html#lead
 Just do following:
 * Remove `~/.vim_runtime`
 * Remove any lines that reference `.vim_runtime` in your `~/.vimrc`
-
-
-
-
-
-
-
-
-
-
-

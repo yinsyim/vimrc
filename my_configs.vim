@@ -15,8 +15,8 @@ nmap K 10k
 " set paste and nopaste
 cmap sp set paste
 cmap snp set nopaste
-nmap <leader>sp :set paste<CR>
-nmap <leader>snp :set nopaste<CR>
+nmap <leader>p :set paste<CR>
+nmap <leader>np :set nopaste<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => pathogen
