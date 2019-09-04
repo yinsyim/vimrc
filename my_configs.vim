@@ -17,6 +17,11 @@ cmap sp set paste
 cmap snp set nopaste
 nmap <leader>p :set paste<CR>
 nmap <leader>np :set nopaste<CR>
+" to close the adjacent window in nerdtree, especially the notification window in python-mode 
+nmap <leader>jq <C-j>:q<CR>
+nmap <leader>kq <C-k>:q<CR>
+nmap <leader>hq <C-h>:q<CR>
+nmap <leader>lq <C-l>:q<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => pathogen
