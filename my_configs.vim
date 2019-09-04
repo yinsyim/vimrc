@@ -10,8 +10,8 @@ set nu
 " set <leader>
 let mapleader=','
 " roll 10 lines
-nmap J 10j
-nmap K 10k
+nmap ( 10k
+nmap ) 10j
 " set paste and nopaste
 cmap sp set paste
 cmap snp set nopaste
