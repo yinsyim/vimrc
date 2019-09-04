@@ -22,6 +22,8 @@ nmap <leader>jq <C-j>:q<CR>
 nmap <leader>kq <C-k>:q<CR>
 nmap <leader>hq <C-h>:q<CR>
 nmap <leader>lq <C-l>:q<CR>
+" set nohighlight
+nmap <leader>nh :noh<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => pathogen
