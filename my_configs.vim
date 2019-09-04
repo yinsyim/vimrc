@@ -12,8 +12,9 @@ let mapleader=','
 " roll 10 lines
 noremap ( 10k
 noremap ) 10j
-" noremap J 10j
-" noremap K 10k
+let {"g:pymode_doc_bind"} = "" " cancel 'K''s key bind in python-mode
+noremap J 10j
+noremap K 10k
 " set paste and nopaste
 cmap sp set paste
 cmap snp set nopaste
@@ -28,10 +29,10 @@ nnoremap <leader>qa :qa<CR>
 nnoremap <leader>wa :wa<CR>
 nnoremap <leader>wqa :wqa<CR>
 " to close the adjacent window in nerdtree, especially the notification window in python-mode 
-nnoremap <leader>jq <C-j>:q<CR>
-nnoremap <leader>kq <C-k>:q<CR>
-nnoremap <leader>hq <C-h>:q<CR>
-nnoremap <leader>lq <C-l>:q<CR>
+nmap <leader>jq <C-j>:q<CR>
+nmap <leader>kq <C-k>:q<CR>
+nmap <leader>hq <C-h>:q<CR>
+nmap <leader>lq <C-l>:q<CR>
 " refresh
 nnoremap <leader>e :e<CR>
 " set nohighlight
@@ -42,6 +43,8 @@ nnoremap 0 ^
 nnoremap 9 $
 " edit my_configs.vim
 nnoremap <leader>mc :e /root/.vim_runtime/my_configs.vim<CR>
+" open NERDTree
+map <C-n> :NERDTreeToggle<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => pathogen
