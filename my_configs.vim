@@ -24,6 +24,12 @@ nmap <leader>hq <C-h>:q<CR>
 nmap <leader>lq <C-l>:q<CR>
 " set nohighlight
 nmap <leader>nh :noh<CR>
+" close all windows
+nmap <leader>qa :qa<CR>
+" map 0 to soft top of line
+nmap 0 ^
+" map 9 to end of line
+nmap 9 $
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => pathogen
