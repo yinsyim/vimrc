@@ -10,36 +10,38 @@ set nu
 " set <leader>
 let mapleader=','
 " roll 10 lines
-nmap ( 10k
-nmap ) 10j
+noremap ( 10k
+noremap ) 10j
+" noremap J 10j
+" noremap K 10k
 " set paste and nopaste
 cmap sp set paste
 cmap snp set nopaste
-nmap <leader>p :set paste<CR>
-nmap <leader>np :set nopaste<CR>
+nnoremap <leader>p :set paste<CR>
+nnoremap <leader>np :set nopaste<CR>
 " close or save current window
-nmap <leader>q :q<CR>
-nmap <leader>w :w<CR>
-nmap <leader>wq :wq<CR>
+nnoremap <leader>q :q<CR>
+nnoremap <leader>w :w<CR>
+nnoremap <leader>wq :wq<CR>
 " close or save all windows
-nmap <leader>qa :qa<CR>
-nmap <leader>wa :wa<CR>
-nmap <leader>wqa :wqa<CR>
+nnoremap <leader>qa :qa<CR>
+nnoremap <leader>wa :wa<CR>
+nnoremap <leader>wqa :wqa<CR>
 " to close the adjacent window in nerdtree, especially the notification window in python-mode 
-nmap <leader>jq <C-j>:q<CR>
-nmap <leader>kq <C-k>:q<CR>
-nmap <leader>hq <C-h>:q<CR>
-nmap <leader>lq <C-l>:q<CR>
+nnoremap <leader>jq <C-j>:q<CR>
+nnoremap <leader>kq <C-k>:q<CR>
+nnoremap <leader>hq <C-h>:q<CR>
+nnoremap <leader>lq <C-l>:q<CR>
 " refresh
-nmap <leader>e :e<CR>
+nnoremap <leader>e :e<CR>
 " set nohighlight
-nmap <leader>nh :noh<CR>
+nnoremap <leader>nh :noh<CR>
 " map 0 to soft top of line
-nmap 0 ^
+nnoremap 0 ^
 " map 9 to end of line
-nmap 9 $
+nnoremap 9 $
 " edit my_configs.vim
-nmap <leader>mc :e /root/.vim_runtime/my_configs.vim<CR>
+nnoremap <leader>mc :e /root/.vim_runtime/my_configs.vim<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => pathogen
