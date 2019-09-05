@@ -26,7 +26,7 @@
 >
 > I would, of course, recommend using the awesome version.
 >
-> <p align="right">诶嘿</p>  
+> <p align="right">--amix</p>  
 
 
 ## How to install the Awesome version?
