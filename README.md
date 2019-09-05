@@ -112,33 +112,61 @@ I recommend reading the docs of these plugins to understand them better. Each pl
 
 After you have installed the setup, you can create **~/.vim_runtime/my_configs.vim** to fill in any configurations that are important for you. For instance, my **my_configs.vim** looks like this:
 ```vim
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""  
-" => General  
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""  
-" allow to use mouse clicking  
-set mouse=a  
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" allow to use mouse clicking
+set mouse=a
 
-" Show line number  
+" Show line number
 set nu
 
-" set <leader>  
-let mapleader=','  
-" roll 10 lines  
-nmap J 10j  
-nmap K 10k  
-" set paste and nopaste  
-cmap sp set paste  
-cmap snp set nopaste  
-nmap <leader>p :set paste<CR>  
-nmap <leader>np :set nopaste<CR>  
+" set <leader>
+let mapleader=','
+" roll 10 lines
+noremap ( 10k
+noremap ) 10j
+let {"g:pymode_doc_bind"} = "" " cancel 'K''s key bind in python-mode
+noremap J 10j
+noremap K 10k
+" set paste and nopaste
+cmap sp set paste
+cmap snp set nopaste
+nnoremap <leader>p :set paste<CR>
+nnoremap <leader>np :set nopaste<CR>
+" close or save current window
+nnoremap <leader>q :q<CR>
+nnoremap <leader>w :w<CR>
+nnoremap <leader>wq :wq<CR>
+" close or save all windows
+nnoremap <leader>qa :qa<CR>
+nnoremap <leader>wa :wa<CR>
+nnoremap <leader>wqa :wqa<CR>
+" to close the adjacent window in nerdtree, especially the notification window in python-mode 
+nmap <leader>jq <C-j>:q<CR>
+nmap <leader>kq <C-k>:q<CR>
+nmap <leader>hq <C-h>:q<CR>
+nmap <leader>lq <C-l>:q<CR>
+" refresh
+nnoremap <leader>e :e<CR>
+" set nohighlight
+nnoremap <leader>nh :noh<CR>
+" map 0 to soft top of line
+nnoremap 0 ^
+" map 9 to end of line
+nnoremap 9 $
+" edit my_configs.vim
+nnoremap <leader>mc :e /root/.vim_runtime/my_configs.vim<CR>
+" open NERDTree
+map <C-n> :NERDTreeToggle<CR>
 ```
 
 You can also install your plugins, for instance, via pathogen you can install [vim-rails](https://github.com/tpope/vim-rails):
 ```sh
-    # cd ~/.vim_runtime/my_plugins/
-    # git submodule add git://github.com/tpope/vim-rails.git
-    # then edit the pathogen part in ~/.vim_runtime/my_configs.vim if needed
-```
+# cd ~/.vim_runtime/my_plugins/
+# git submodule add git://github.com/tpope/vim-rails.git
+then edit the pathogen part in ~/.vim_runtime/my_configs.vim if needed
+``` 
 
 ## Key Mappings
 
