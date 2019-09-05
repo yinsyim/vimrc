@@ -111,7 +111,7 @@ I recommend reading the docs of these plugins to understand them better. Each pl
 ## How to include your own stuff?
 
 After you have installed the setup, you can create **~/.vim_runtime/my_configs.vim** to fill in any configurations that are important for you. For instance, my **my_configs.vim** looks like this:
-```text
+```vim
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""  
 " => General  
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""  
@@ -134,7 +134,7 @@ nmap <leader>np :set nopaste<CR>
 ```
 
 You can also install your plugins, for instance, via pathogen you can install [vim-rails](https://github.com/tpope/vim-rails):
-```text
+```sh
     # cd ~/.vim_runtime/my_plugins/
     # git submodule add git://github.com/tpope/vim-rails.git
     # then edit the pathogen part in ~/.vim_runtime/my_configs.vim if needed
