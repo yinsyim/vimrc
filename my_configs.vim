@@ -23,6 +23,9 @@ nnoremap <leader>wq :wq<CR>
 nnoremap <leader>qa :qa<CR>
 nnoremap <leader>wa :wa<CR>
 nnoremap <leader>wqa :wqa<CR>
+" close the debug message window in python-mode
+unmap <leader>j
+nmap <leader>j <C-j>:q<CR>
 " refresh
 nnoremap <leader>e :e<CR>
 " set nohighlight
