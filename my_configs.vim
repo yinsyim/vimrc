@@ -13,8 +13,6 @@ let g:mapleader=','
 noremap ( 10k
 noremap ) 10j
 " set paste and nopaste
-cmap sp set paste
-cmap snp set nopaste
 nnoremap <leader>p :set paste<CR>
 nnoremap <leader>np :set nopaste<CR>
 " close or save current window
@@ -25,11 +23,6 @@ nnoremap <leader>wq :wq<CR>
 nnoremap <leader>qa :qa<CR>
 nnoremap <leader>wa :wa<CR>
 nnoremap <leader>wqa :wqa<CR>
-" to close the adjacent window in nerdtree, especially the notification window in python-mode 
-nmap <leader>jq <C-j>:q<CR>
-nmap <leader>kq <C-k>:q<CR>
-nmap <leader>hq <C-h>:q<CR>
-nmap <leader>lq <C-l>:q<CR>
 " refresh
 nnoremap <leader>e :e<CR>
 " set nohighlight
@@ -41,7 +34,7 @@ nnoremap 9 $
 " edit my_configs.vim
 nnoremap <leader>mc :e /root/.vim_runtime/my_configs.vim<CR>
 " open NERDTree
-map <C-n> :NERDTreeToggle<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
 " leave 7 lines on the top and at the bottom when scroll
 set scrolloff=7
 
