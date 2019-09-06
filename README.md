@@ -122,13 +122,10 @@ set mouse=a
 set nu
 
 " set <leader>
-let mapleader=','
+let g:mapleader=','
 " roll 10 lines
 noremap ( 10k
 noremap ) 10j
-let {"g:pymode_doc_bind"} = "" " cancel 'K''s key bind in python-mode
-noremap J 10j
-noremap K 10k
 " set paste and nopaste
 cmap sp set paste
 cmap snp set nopaste
@@ -159,6 +156,8 @@ nnoremap 9 $
 nnoremap <leader>mc :e /root/.vim_runtime/my_configs.vim<CR>
 " open NERDTree
 map <C-n> :NERDTreeToggle<CR>
+" leave 7 lines on the top and at the bottom when scroll
+set scrolloff=7
 ```
 
 You can also install your plugins, for instance, via pathogen you can install [vim-rails](https://github.com/tpope/vim-rails):
