@@ -13,8 +13,11 @@ let g:mapleader=','
 noremap ( 10k
 noremap ) 10j
 " set paste and nopaste
-nnoremap <leader>p :set paste<CR>
+nnoremap <leader>sp :set paste<CR>
 nnoremap <leader>np :set nopaste<CR>
+" set soft-wrap
+nnoremap <leader>sw :set wrap<CR>
+nnoremap <leader>nw :set nowrap<CR>
 " close or save current window
 nnoremap <leader>q :q<CR>
 nnoremap <leader>w :w<CR>
