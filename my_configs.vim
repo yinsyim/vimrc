@@ -8,7 +8,7 @@ set mouse=a
 set nu
 
 " set <leader>
-let g:mapleader=','
+let g:mapleader=';'
 " roll 10 lines
 noremap ( 10k
 noremap ) 10j
