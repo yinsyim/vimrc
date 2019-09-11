@@ -16,6 +16,8 @@ noremap ) 10j
 inoremap <C-o> <End><CR>
 " move cursor to the end of line in insert mode
 inoremap <C-a> <End>
+" move cursor to the start of line in insert mode
+inoremap <C-i> <Home>
 " set paste and nopaste
 nnoremap <leader>p :set paste<CR>
 nnoremap <leader>np :set nopaste<CR>
