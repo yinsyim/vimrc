@@ -12,6 +12,8 @@ let g:mapleader=','
 " roll 10 lines
 noremap ( 10k
 noremap ) 10j
+" start a new line in insert mode
+inoremap <C-o> <End><CR>
 " set paste and nopaste
 nnoremap <leader>p :set paste<CR>
 nnoremap <leader>np :set nopaste<CR>
