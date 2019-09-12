@@ -18,7 +18,7 @@ long ones i link to the original files or pages.
   - [my_configs.vim](/my_configs.vim)
 
 - Others:
-  - [Other Useful Skills](#others)
+  - [Other Useful Skills](#other-useful-skills)
   - [References](#references)
 
 
