@@ -4,7 +4,7 @@ vimrc cheat sheet
 This is the cheat sheet of my vimrc. I put the short content just here, and for the
 long ones i link to the original files or pages.
 
-<center> :whale: </center>
+<p align="center"> :whale: </p>
 
 -----
 
