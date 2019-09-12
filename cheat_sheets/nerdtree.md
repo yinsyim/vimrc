@@ -1,7 +1,7 @@
 Here are some frequently used commands:
 
 | Command | Function |
-| :------ | :-------- |
+| ------ | -------- |
 | m  |  open the menu |
 | `o` or `Enter` | open files, directories, bookmarks |
 | `O` | **Recursivly** open the selected directory |
