@@ -3,8 +3,8 @@ vimrc cheat sheet
 
 ## Index
 1. [my_configs.vim](/my_configs.vim)
-2. [builtin commands](builtin.md) and [vi Complete Key Binding List](http://hea-www.harvard.edu/~fine/Tech/vi.html)
-3. [Nerdtree](nerdtree.md) and its [official usage instructions](https://github.com/scrooloose/nerdtree/blob/master/doc/NERDTree.txt)
+2. [builtincommands](builtin.md)
+3. [Nerdtree](nerdtree.md)
 
 
 ## Others

@@ -8,7 +8,6 @@ Here are some frequently used commands:
 | s  | open a file in a vertical split window |
 | i  | open a file in a horizontal split window |
 | t  | open a file in new tab |
-| gt | jump between tabs |
 | x  | close the current node parent (unfold current folder) |
 | X  | **Recursivly** close the current node parent (unfold folders) |
 | R  | refresh |
