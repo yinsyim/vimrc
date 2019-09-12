@@ -1,6 +1,6 @@
 ![VIM](https://dnp4pehkvoo6n.cloudfront.net/43c5af597bd5c1a64eb1829f011c208f/as/Ultimate%20Vimrc.svg)
 
-- [The Ultimate vimrc](#the-ultimate-vimrc)
+- <p align="center"> [The Ultimate vimrc](#the-ultimate-vimrc) </p>
   * [How to install the Awesome version?](#how-to-install-the-awesome-version-)
     + [Install for your own user only](#install-for-your-own-user-only)
     + [Install for multiple users](#install-for-multiple-users)
