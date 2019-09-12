@@ -36,9 +36,9 @@ nnoremap <leader>e :e<CR>
 " set nohighlight
 nnoremap <leader>nh :noh<CR>
 " map 0 to soft top of line
-nnoremap 0 ^
+noremap 0 ^
 " map 9 to end of line
-nnoremap 9 $
+noremap 9 $
 " edit my_configs.vim
 nnoremap <leader>mc :e /root/.vim_runtime/my_configs.vim<CR>
 " open NERDTree
