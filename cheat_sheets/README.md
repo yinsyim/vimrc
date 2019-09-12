@@ -3,7 +3,7 @@ vimrc cheat sheet
 
 ## Index
 1. [my_configs.vim](/my_configs.vim)
-2. [builtincommands](builtin.md)
+2. [Builtin Commands](builtin.md)
 3. [Nerdtree](nerdtree.md)
 
 
