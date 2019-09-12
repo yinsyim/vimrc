@@ -3,12 +3,23 @@ vimrc cheat sheet
 
 -----
 
-1. [my_configs.vim](/my_configs.vim)
-1. [Builtin Commands](builtin.md)
-1. [Vim Setting Commands](#vim_setting_commands)
-1. [Nerdtree](#nerdtree)
-1. [Other Useful Skills](#others)
-1. [References](#references)
+Builtin:
+
+- [Builtin Commands](builtin.md)
+- [Vim Setting Commands](#vim_setting_commands)
+
+Plugins:
+
+- [Nerdtree](#nerdtree)
+
+Custom:
+
+- [my_configs.vim](/my_configs.vim)
+
+Others:
+
+- [Other Useful Skills](#others)
+- [References](#references)
 
 -----
 
@@ -88,7 +99,7 @@ For complete usage instructions, see [Nerdtree Official Doc](https://github.com/
 <a id="others"></a>
 ## Other Useful Skills
 
-### 1. switch between shell and vim (`ctl-z` + `fg`)
+### switch between shell and vim (`ctl-z` + `fg`)
 
 If you are doing some code editing, debugging and testing work, i mean,
 edit files with vim -> exit vim -> test and run -> edit files again -> exit
