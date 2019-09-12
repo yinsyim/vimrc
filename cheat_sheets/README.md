@@ -1,35 +1,28 @@
-vimrc cheat sheet
-=====
+# <p align="center"> :apple: vimrc cheat sheet :green_apple: </p>
+
 
 This is the cheat sheet of my vimrc. I put the short content just here, and for the
 long ones i link to the original files or pages.
 
-<p align="center"> :whale: </p>
 
 -----
 
-Builtin:
+- Builtin:
+  - [Builtin Commands](builtin.md)
+  - [Vim Setting Commands](#vim-setting-commands)
 
-- [Builtin Commands](builtin.md)
-- [Vim Setting Commands](#vim_setting_commands)
+- Plugins:
+  - [Nerdtree](#nerdtree)
 
-Plugins:
+- Custom:
+  - [my_configs.vim](/my_configs.vim)
 
-- [Nerdtree](#nerdtree)
-
-Custom:
-
-- [my_configs.vim](/my_configs.vim)
-
-Others:
-
-- [Other Useful Skills](#others)
-- [References](#references)
-
------
+- Others:
+  - [Other Useful Skills](#others)
+  - [References](#references)
 
 
-<a id="vim_setting_commands"></a>
+
 ## Vim Setting Commands
 
 1. show settings
@@ -73,7 +66,6 @@ Others:
     `n`: normal mode.
 
 
-<a id="nerdtree"></a>
 ## Nerdtree
 
 Here are some frequently used commands:
@@ -101,7 +93,6 @@ Here are some frequently used commands:
 For complete usage instructions, see [Nerdtree Official Doc](https://github.com/scrooloose/nerdtree/blob/master/doc/NERDTree.txt)
 
 
-<a id="others"></a>
 ## Other Useful Skills
 
 ### switch between shell and vim (`ctl-z` + `fg`)
@@ -129,7 +120,6 @@ to put vim process into background, now you are in shell, do your testing,
 and use `fg` to call back your vim again.
 
 
-<a id="references"></a>
 ## References
 - [welcome home : vim online](https://www.vim.org/)
 - [VIM: help](http://vimcdoc.sourceforge.net/doc/help.html)
