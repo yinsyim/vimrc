@@ -1,5 +1,11 @@
 # <p align="center"> :whale: vimrc :whale: </p>
 
+> Over the last 10 years, I have used and tweaked Vim. This configuration is the ultimate vimrc (or at least my version of it).
+>
+> <p align="right">--amix</p>  
+
+-----
+
 
 * [The Ultimate vimrc](#the-ultimate-vimrc)
 * [How to install the Awesome version?](#how-to-install-the-awesome-version-)
@@ -14,19 +20,6 @@
 * [Key Mappings](#key-mappings)
 * [How to uninstall](#how-to-uninstall)
 
-
-## The Ultimate vimrc
-
-> Over the last 10 years, I have used and tweaked Vim. This configuration is the ultimate vimrc (or at least my version of it).
->
-> There are two versions:
->
-> * **The Basic**: If you want something small just copy [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) into your ~/.vimrc and you will have a good basic setup
-> * **The Awesome**: Includes a ton of useful plugins, color schemes, and configurations
->
-> I would, of course, recommend using the awesome version.
->
-> <p align="right">--amix</p>  
 
 
 ## How to install the Awesome version?
