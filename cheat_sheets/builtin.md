@@ -1,7 +1,7 @@
 built-in commands
 =====================
 
-<a id='top'>**contents:**</a>
+<a id='top'></a>
 
 1. [Save/Quit](#save_quit)
 1. [Code Folding](#code_folding)
@@ -9,7 +9,7 @@ built-in commands
 1. [Substitute/Replace](#substitute_replace)
 1. [Search/Find](#search_find)
 1. [Cursor Moving](#cursor_moving)
-1. [Screen Scrool](#screen_scroll)
+1. [Screen Scroll](#screen_scroll)
 1. [Delete](#delete)
 1. [Copy/Paste](#copy_paste)
 1. [Undo/Redo](#Undo_Redo)
@@ -641,7 +641,7 @@ leaving only an outline of the major parts visible. This is what folding does.
     | `<leader>q` | open tmp file `~/buffer` | key binding `:e ~/buffer` |
 
 
-# References
+## [▲](#top) References
 1. [vim无插件编程技巧](http://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&mid=200211176&idx=1&sn=8ef83ebad1938fd03acd424f0c18abb3&scene=2&from=timeline&isappinstalled=0#rd)
 
 1. [vi Complete Key Binding List](http://hea-www.harvard.edu/~fine/Tech/vi.html)
