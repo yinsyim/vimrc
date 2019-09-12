@@ -19,6 +19,7 @@ built-in commands
 1. [Split Window](#split_window)
 1. [Character Related](#char_related)
 1. [Misc](#misc)
+1. [References](#references)
 
 
 <a id="save_quit"></a>
@@ -611,7 +612,7 @@ leaving only an outline of the major parts visible. This is what folding does.
     | g8 | show the utf-8 value of the current character |
     | gf | open the file under the current cursor |
 
-<a dir="misc"></a>
+<a id="misc"></a>
 ## [▲](#top) Misc
 
 1. Basic
@@ -641,6 +642,7 @@ leaving only an outline of the major parts visible. This is what folding does.
     | `<leader>q` | open tmp file `~/buffer` | key binding `:e ~/buffer` |
 
 
+<a id="references"></a>
 ## [▲](#top) References
 1. [vim无插件编程技巧](http://mp.weixin.qq.com/s?__biz=MjM5NzA1MTcyMA==&mid=200211176&idx=1&sn=8ef83ebad1938fd03acd424f0c18abb3&scene=2&from=timeline&isappinstalled=0#rd)
 
