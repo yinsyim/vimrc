@@ -9,9 +9,12 @@ set nu
 
 " set <leader>
 let g:mapleader=';'
-" roll 10 lines
+" move cursor 10 lines
 noremap ( 10k
 noremap ) 10j
+" roll screen 10 lines
+noremap - 10<C-y>
+noremap = 10<C-e>
 " start a new line in insert mode
 inoremap <C-o> <End><CR>
 " move cursor to the end of line in insert mode
