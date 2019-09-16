@@ -13,8 +13,8 @@ let g:mapleader=';'
 noremap ( 10k
 noremap ) 10j
 " roll screen 10 lines
-noremap - 10<C-y>
-noremap = 10<C-e>
+noremap 9 10<C-y>
+noremap 0 10<C-e>
 " start a new line in insert mode
 inoremap <C-o> <End><CR>
 " move cursor to the end of line in insert mode
@@ -38,10 +38,9 @@ nmap <leader>j <C-j>:q<CR>
 nnoremap <leader>e :e<CR>
 " set nohighlight
 nnoremap <leader>nh :noh<CR>
-" map 0 to soft top of line
-noremap 0 ^
-" map 9 to end of line
-noremap 9 $
+" move cursor to two ends of line
+noremap 3 ^
+noremap 4 $
 " edit my_configs.vim
 nnoremap <leader>mc :e /root/.vim_runtime/my_configs.vim<CR>
 " open NERDTree
